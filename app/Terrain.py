@@ -16,7 +16,7 @@ class Terrain:
         self.parse_terrain(level_file)
 
     def can_hold(self, b: Block) -> bool:
-        return self.map[b.p1.x][[b.p1.y]] and self.map[b.p2.x][[b.p2.y]]
+        return self.map[b.p1.x][b.p1.y] and self.map[b.p2.x][b.p2.y]
 
     def neighbors(self, b: Block) -> list:
         [(b.up(), Moves.Up), (b.down(), Moves.Down), (b.left(), Moves.Left), (b.right(), Moves.Right)]
@@ -43,8 +43,8 @@ class Terrain:
                     row.append(False)
             self.map.append(row)
         file.close()
+        print("Terrain map created")
         print(json.dumps(self.map))
 
 
-if __name__ == '__main__':
-    terrain = Terrain()
+

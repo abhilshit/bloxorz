@@ -1,0 +1,1 @@
+Refer main method in Game.py as a starting point
