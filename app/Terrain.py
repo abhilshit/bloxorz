@@ -24,6 +24,9 @@ class Terrain:
     def legal_neighbors(self, b: Block) -> list:
         return [(n,move) for (n,move) in self.neighbours(b) if self.can_hold(n)]
 
+    def done(self, b: Block) -> bool:
+        return b.is_standing() and b.p1.x == self.goal.x and b.p1.y == self.goal.y
+
     def parse_terrain(self, level_file):
         file = open(level_file, "r")
         self.map = []
