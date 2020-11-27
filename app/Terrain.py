@@ -42,7 +42,7 @@ class Terrain:
                     row.append(True)
                 elif char == '0':
                     row.append(True)
-                else:
+                elif char == '-':
                     row.append(False)
             self.map.append(row)
         file.close()

@@ -10,6 +10,7 @@ class Game:
         print("Putting Block at Start in standing position")
         b = Block(terrain.start, terrain.start)
         b1 = b.down()
+        print("done? ", terrain.done(b1))
         b2 = b1.down()
         print(b2)
         print(b2.is_standing())
