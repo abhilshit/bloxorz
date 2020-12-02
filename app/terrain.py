@@ -22,7 +22,7 @@ class Terrain:
     width = 10  # width for level 1 (no of columns)
     height = 6  # height for level 1 (no of rows)
 
-    def __init__(self, level_file="../resources/level01.txt"):
+    def __init__(self, level_file="resources/level01.txt"):
         """
         initializes Terrain object by parsing the level file provided as an input.
         :param level_file: level file representing the bloxorz level 1 positions

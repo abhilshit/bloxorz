@@ -79,7 +79,7 @@ class Game:
 
 if __name__ == '__main__':
     # Initialize terrain
-    terrain = Terrain(level_file="../resources/level01.txt")
+    terrain = Terrain(level_file="resources/level01.txt")
     print("Start at:" + str(terrain.start))
     print("Goal at:" + str(terrain.goal))
     # Create Game
