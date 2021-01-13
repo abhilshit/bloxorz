@@ -25,6 +25,7 @@ $ python --version or python -V
 https://www.miniclip.com/games/bloxorz/en/#
 >
 ## How to Run
+Clone the repo and execute the following steps to runn
 Steps to run
 1. Navigate to <bloxorz_project_dir>/app   - >    
 2. run the command   - >    PYTHONPATH=../ python game.py
@@ -34,12 +35,24 @@ Steps to run
 >> cd <bloxorz_project_dir>/app
 >> PYTHONPATH=../ python game.py
 ```
-Import project in pycharm and run game.py
+Alternatively, you can checkout and import the project in pycharm and run game.py
 
 > **Note**: level-1 of Bloxorz game is implemented using A* algorithm to find fast and Optimal solution.
 
 ## OutPut
-- List of steps performed to reach the gaol in text file
-- Screenshot of outputs 
+It will output the moves required to solve Bloxorz - Level-1
+
+```bash
+>>PYTHONPATH=../ python game.py
+Start at:[1, 1]
+
+Goal at:[4, 7]
+
+############### Solving Game with A*  Algorithm ############
+
+--- Solved using A* in 0.0006482601165771484 seconds ---
+
+Solution:   Right -> Right -> Down -> Right -> Right -> Right -> Down 
+```
 
 >**Note**: .
