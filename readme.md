@@ -1,4 +1,4 @@
-## Bloxorz Game!
+## Solving Bloxorz using A* (A-star) Algorithm
 
 Bloxorz is a 3-D block sliding puzzle game that consists of a terrain that is built
 by 1×1 tile with a special shape and size, and a 1×1×2 size block. This game is a
