@@ -54,5 +54,4 @@ Goal at:[4, 7]
 
 Solution:   Right -> Right -> Down -> Right -> Right -> Right -> Down 
 ```
-
->**Note**: .
+Copyright (C) 2020 - Abhilshit Soni 
